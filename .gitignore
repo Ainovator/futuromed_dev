@@ -1,0 +1,44 @@
+# Системные файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы настроек IDE
+.idea/
+*.iml
+
+# Файлы автозагрузки Composer
+/vendor/
+
+# Конфиденциальные файлы
+.env
+*.env.*
+
+# Кэш
+/cache/
+storage/cache/
+
+# Логи
+*.log
+logs/
+storage/logs/
+
+# Сессии
+storage/framework/sessions/
+
+# Загрузки (если они не нужны в репозитории)
+public/uploads/
+storage/app/uploads/
+
+# Тестовые артефакты
+.phpunit.result.cache
+/tests/_output/
+
+# Node.js (если используется)
+node_modules/
+
+# Файлы временных данных
+*.bak
+*.tmp
+
+# Конфигурации для Docker/CI/CD (при необходимости)
+.docker/
